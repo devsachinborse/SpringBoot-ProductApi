@@ -56,23 +56,7 @@ private boolean available;
 private LocalDateTime createdAt;
 private LocalDateTime updatedAt;
 ```
-## 📦 API Endpoints
-#### Method	Endpoint	Description
-GET	/api/products	Get all products
-GET	/api/product/{id}	Get product by ID
-POST	/api/product	Create new product
-PUT	/api/product/{id}	Update existing product
-DELETE	/api/product/{id}	Delete product by ID
-📝 Sample JSON (POST / PUT)
-{
-  "name": "Laptop",
-  "description": "15-inch display, 16GB RAM",
-  "category": "Electronics",
-  "brand": "Dell",
-  "price": 55000,
-  "quantity": 10,
-  "available": true
-}
+
 
 
 
